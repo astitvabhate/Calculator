@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Site{
+    height: 100vh ;
+    width: 100%;
+    background-color: #001219;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.Calculator{
+    background-color: #005f73;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.Calculator form input{
+    font-family: 'Orbitron', sans-serif;
+    border: 10;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 13px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+   
+}
+
+form .display{
+    width: 330px;
+    display: flex;
+    justify-self: flex-end;
+}
+
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+.buttons .equal{
+    background-color: #fefae0 ;
+    width: 145px;
+    font-weight: bold;
+}
+
+.buttons .operator{
+    background-color: #fefae0;
+    font-weight: bold;
+}
+
+h1{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #001219;
+    color: #fff;
+    padding-top: 20px;
+}
+
+h3{
+    font-family:'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #001219;
+    color: #fff;
+    padding-top: 3px;
+}
+
+.buttons .C{
+    background-color: rgb(234, 63, 63);
+}
+
+
+
+input::placeholder{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 10px;
+    opacity: 60%;
+    
+}
+
+.Calculator form input:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.Calculator form input:active {
+    transform: translateY(4px);
+    box-shadow: none;
+}
